@@ -1,0 +1,269 @@
+/* pour responsive tablette*/
+
+@media screen and (min-width: 641px) and (max-width: 800px){
+ 
+/*pour header*/
+
+  nav {
+    flex-direction: row;
+  }
+
+  nav li a:hover{
+    color:transparent;
+  }
+
+  .artist {
+   width: 16%;
+  }
+
+/*pour div#logo*/
+
+  #logo .wrapper img, span {
+   font-size:.43rem;
+   width:43%;
+   padding-right: 1rem;
+  }
+
+/*pour div#screen regroupées*/
+
+  #screen .line{
+    width: 41%;
+  }
+
+  #screen p, #platform p {
+   font-size: .73rem;
+  }
+   
+   /* pour slider 1*/
+
+  .single-item {
+    top: 46.74%;
+    left: 15%;
+    width: 70%;
+  }
+
+  button.slick-next {
+    width: 6%;    
+    right: -15%;
+  }
+
+  button.slick-prev {
+    width: 7%;    
+    left: -16%;
+  }
+   
+  #layout h2, #gallerie h2, 
+  #blog h2, #customs h2, #connect h2,
+  #statistic h2 {
+    width: 182%;
+  }
+
+  #layout p, #gallerie p, #blog p, 
+  #customs p, #mobile p, #connect p, 
+  #chat p, #statistic p, #contributor p,
+  #contributor blockquote{
+   width: 114%;
+   font-size: .73rem;
+  }
+
+  #layout .line, #gallerie .line, 
+  #blog .line, #customs .line, 
+  #mobile .line, #connect .line, 
+  #chat .line, #statistic .line, 
+  #contributor .line, #domain .line {
+    width: 59%;
+  }
+
+  #layout, #gallerie, 
+  #blog, #customs, 
+  #connect, #chat, #statistic {
+    padding-top: 5.25rem;
+    padding-bottom: 6.63rem;
+  }
+
+  #blog button.slick-next{
+    width: 5%;
+    right: -6%;
+  }
+  
+  #blog button.slick-prev{
+  width: 4%;
+  left: -5%;
+  }
+  /*pour div#flex_container*/
+
+  .flex_container .wrapper {
+    display: flex;
+  }
+
+  .import p, .push p, .share p, .right p {
+    font-size: 0.73rem;
+    width: 117%;
+  }
+
+  /*pour div#mobile*/
+
+  #mobile .wrapper, 
+  #contributor .wrapper, 
+  #domain .wrapper{
+    display: flex;
+  }
+
+  #mobile .right {
+    width: 96%;
+  }
+  #mobile .left img {
+    width: 46%;
+  }   
+
+  /*pour div #connect*/
+
+  #connect .wrapper {
+    display: flex;
+  }
+
+  #connect p{
+    width: 86%;
+  }
+
+  #connect  .left{
+    width: 231%;
+  }
+
+  #connect h2 {
+    width: 78%;
+  }
+
+  #connect .right {
+    padding-left: 3rem;
+    width: 174%;
+  }
+
+  #connect img {
+    margin-left: -8%;
+    width: 100%;
+  }
+
+  /*pour div #chat*/
+
+  #chat .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #chat .wrapper .left{
+    width: 317%;
+    margin-left: -7%;
+  }
+
+  #chat h3{
+    width: 10%;
+  }
+
+  #chat .right {
+    width: 192%;
+    padding-left: 0.3rem;
+  }
+
+  /*pour div#contributor*/
+
+  .back_green {
+    padding: 0.23rem .23rem;
+    width: 48%;
+    top: 52%;
+  }
+
+  #contributor .back_green p:first-child{
+    padding-right: 0.56rem;
+    font-size: 0.53rem;
+  }
+
+  #contributor .back_green p:last-child{
+    padding-right: 0.56rem;
+    font-size: 0.53rem;
+  }
+
+  #contributor .left{
+    margin-right: 15%;
+  }
+
+  #contributor h3{
+    width: 72%;
+  }
+
+  #contributor p{
+    width: 82%;
+  }
+
+  #contributor .left img{
+    width: 30%;
+  }
+
+  #contributor .right img {
+    width: 130%;
+  }
+
+  /*pour div #domain*/
+
+  #domain {
+    margin:0;
+  }
+
+  #domain p{
+   width: 82%;
+   font-size:.73rem;
+  }
+
+  #domain h3{
+    width: 51%;
+  }
+
+  #domain .left{
+    width:77%;
+  }
+
+  #domain .right{
+    margin-right: -19%;
+    width: 74%;
+  }
+
+  #domain .right img {
+    width: 78%;
+  }
+
+  .button {
+    margin-top: -59%;
+    width: 15%;
+    margin-left:0;
+  }
+
+  /*pour footer*/
+
+  footer .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product{
+    width: 55%;
+  }
+
+  .company{
+    width: 32%;
+  }
+
+  .free {
+    padding-top: 7.20rem;
+    margin-right:10%;
+  }
+
+  .free a{
+    padding: 1rem 2rem;
+  }
+
+  .free ul{
+    font-size: 0.71rem;
+  }
+
+}
+  
+

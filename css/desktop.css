@@ -1,0 +1,146 @@
+/*responsive taille desktop*/
+
+  @media screen and (min-width: 801px) and (max-width: 1281px){
+  
+/* pour div # video*/
+
+   .artist{
+   	 width:13%;
+   }
+
+/*pour div #logo*/
+
+	#logo .wrapper{
+	 width:88%;
+	}
+/*pour div #screen*/
+
+	#screen p{
+	 width:48%;
+	}	
+
+/* pour slider 1*/
+
+  .single-item {
+    top: 42%;
+    left: 14%;
+    width: 72%;
+  }
+
+  button.slick-next {
+    width: 5%;    
+    right: -13%;
+  }
+
+  button.slick-prev {
+    width: 5%;    
+    left: -13%;
+  }
+
+ /*pour div #platform*/
+	
+	#platform p{
+	 width:42%;
+	}	
+
+	#layout h2, #gallerie h2, 
+  	#blog h2, #customs h2, #connect h2,
+  	#statistic h2{
+     width: 115%;
+  	}
+
+	#layout .line, #gallerie .line, 
+  	#blog .line, #customs .line, 
+  	#mobile .line, #connect .line, 
+  	#chat .line, #statistic .line, 
+  	#contributor .line, #domain .line {
+   	 width: 60%;
+  	}
+
+  	#layout p, #gallerie p, #blog p, 
+  	#customs p, #mobile p, #connect p, 
+  	#chat p, #statistic p, #contributor p,
+  	#contributor blockquote{
+  	 width: 166%;
+  	}
+
+ /* pour div #mobile*/
+
+ 	#mobile .left{
+ 	 width: 44%;
+ 	}
+
+	#mobile p{
+ 	 width: 84%;
+ 	}
+
+ /*pour div #connect*/
+
+ 	#connect .left{
+ 	 width: 39%;
+ 	}
+
+ 	#connect .right{
+ 	 width: 75%;
+ 	}
+
+ 	#connect p{
+ 	 width:110%;
+ 	}
+/*pour div #chat*/
+
+	#chat .left{
+ 	 width: 83%;
+ 	}
+
+ 	#chat .right{
+ 	 width: 70%;
+ 	}
+
+ 	#chat p{
+ 	 width:108%;
+ 	}
+
+/*pour div #contributor*/
+
+	#contributor .left{
+ 	 width: 56%;
+ 	}
+
+	#contributor p{
+ 	 width: 77%;
+ 	}
+
+	.back_green {
+     padding: 0.53rem .23rem;
+     width: 48%;
+     top: 53%;
+    }
+
+	#contributor .back_green p:first-child{
+	 font-size: 0.63rem;
+     padding-left: 5.36rem;
+	}
+
+	#contributor .right{
+	 width: 49%;
+	}
+/*pour div #domain*/
+
+	#domain p{
+	 width: 92%;
+	}
+	
+	.button {
+    margin-top: -71%;
+    width: 19%;
+    margin-left:0;
+  }
+
+/*pour footer*/
+	
+	.free a{
+    padding: 1rem 2rem;
+  }
+	
+}

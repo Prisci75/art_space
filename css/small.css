@@ -1,0 +1,381 @@
+/*pour responsive mobile*/
+
+@media screen and (min-width: 380px) and (max-width: 640px){
+  
+  /*pour le header*/
+
+  .background{
+    min-height:0vh;
+  }
+
+  nav a{
+    align-self:center;
+  }
+
+  nav{
+    flex-direction:column;
+  }	
+
+  nav img{
+    width:100%;
+  }  
+
+  nav ul{
+  justify-content: center;
+  }
+
+  nav li {
+  padding-right: 1.58rem;
+  font-size: .53rem;
+  }
+
+  nav li a:hover{
+    color:transparent;
+  }
+
+  /* div #video*/
+
+  #video .line{
+    width: 55%;
+    border: 2px solid #fff;
+  }
+
+  #video h1{
+    font-size: 1.12rem;
+    width: 99%;
+  }
+
+  #video h1 + p {
+    font-size:.63rem;
+  }
+
+  .btn p {
+      font-size: .55rem;
+  }
+
+  .btn a:first-child {
+    padding: .76rem 1.36rem;
+    font-size: .55rem;
+  }
+
+  .artist{
+    width:24%;
+    right: .31rem;
+    bottom: 2.63rem;
+  }
+
+  .artist p:first-child {
+    font-size:.55rem;
+  }
+  .artist p:last-child {
+    font-size:.55rem;
+  }
+  /*pour div #logo*/
+
+  #logo{
+    padding-top:1.95rem;
+    padding-bottom:1.95rem;
+  }
+
+  #logo .wrapper img, span {
+    font-size:.23rem;
+    width: 10%;
+  }
+
+  /*pour div #screen*/
+
+  #layout h2, #gallerie h2, #blog h2, 
+  #customs h2, #connect h2, #screen h2,
+  #statistic h2, #platform h2{
+    font-size:.98rem; 
+  } 
+
+  .line{
+    width:50%;
+  }
+
+  #screen, #platform{
+      margin-top: 4.25rem;
+  }
+
+  #screen p, #platform p {
+    width: 75%;
+    margin-left: 12%;
+    font-size:.63rem;
+    padding-bottom: 1.75rem;  
+  }
+
+  #screen .slider_wrapper{
+    position:relative;
+  }
+
+  /*styles pour slider_wrapper 1*/
+
+  .single-item {
+    top: 6.74%;
+    left: 4%;
+    width:91%;
+  }
+
+  button.slick-next {
+    width: 8%;    
+    right: -16%;
+  }
+
+  button.slick-prev {
+    width: 8%;    
+    left: -16%;
+  }
+   
+  /*pour div #layout*/
+
+  .left{
+    width:117%;
+  }
+
+  #layout p, #gallerie p, #blog p, #customs p, 
+  #mobile p, #connect p, #chat p, #statistic p,
+  #contributor p, #contributor blockquote, 
+  #domain p{   
+    font-size: .63rem;
+  }    
+
+  #layout img, #gallerie img, 
+  #customs img, #chat img, 
+  #statistic img {
+    width: 99%;
+    margin: 0 auto;
+  }
+
+  /*pour div #blog*/
+
+  #blog button.slick-prev {
+    width: 6%;
+    left: -7%;
+  }
+
+  #blog button.slick-next {
+    width: 7%;
+    right: -9%;
+  }
+
+  #blog span {   
+    font-size: .6rem;
+    width: 37%;
+  }
+
+  /*pour div #gallerie*/
+  #gallerie h2{
+    width: 74%;
+  }
+
+  /*pour .flex_container*/
+
+  .flex_container {
+    padding-bottom: 1rem;
+  }
+
+  .flex_container .wrapper{
+    display:inline-block;
+  }
+
+  .import, .push, .share {
+    margin:0 auto;
+    width:74%;   
+  }
+
+  .import h4, .push h4, .share h4, .right h4 {   
+    font-size:.88rem;
+  }
+
+  .import p, .push p, .share p, .right p {
+    font-size:.63rem;
+  }
+
+  .flex_container .picto a img{
+    padding-right:0rem;
+    width: 73%;
+  }
+
+  .flex_container .picto a img:nth-of-type(3){
+    width:33%;
+  }
+
+  /*pour div #mobile*/
+
+  #mobile .wrapper, #contributor .wrapper, 
+  #domain .wrapper {
+    padding-top: 5.25rem;
+    padding-bottom: 5.63rem;
+    display: inline-block;
+    margin-left:10%;
+  }
+
+  #layout .line, #gallerie .line, #blog .line,
+  #customs .line, #mobile .line, #connect .line,
+  #chat .line, #statistic .line, 
+  #contributor .line, #domain .line {
+    width: 33%;
+  }
+
+  #mobile .right {
+    width: 81%;
+  }
+
+  #mobile .left img{
+    width: 20%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+  }
+
+  /*pour div #connect*/
+
+  #connect .wrapper{
+    display: inline-block;
+    margin-left:10%;
+  }
+
+  #connect h2{
+    width:91%;
+  }
+
+  #connect img{
+    margin-left: 4%;
+    width:75%;
+  }
+
+  #connect .right {
+      padding-left: 1rem;
+      width:100%;
+      margin-top: -30%;
+  }
+
+  /*pour div #chat*/
+
+  #chat .wrapper{
+    display:flex;
+    flex-direction:column-reverse;
+  }
+
+  #chat .left img{
+    width:139%;
+    margin-left: 10%;
+  }
+
+  #chat img {
+    border: none;
+    padding-bottom:.85rem;
+  }
+
+  #chat .right{
+    width:133%;
+    padding-left:4.3rem;
+  }
+
+  /*pour div #statistic*/
+
+  #statistic h2{
+    width:96%;
+  }
+
+  /*pour div #contributor*/
+
+  #contributor p {
+    width: 86%;
+  }
+
+  #contributor .left img {
+    width: 20%;
+  }
+
+  .back_green {
+    padding: .43rem .73rem;
+    width: 92%;
+    top: 29%;
+    left: 6%;
+  }
+
+  #contributor .back_green p {
+    font-size:.61rem;
+    border:none;
+    padding-left: 6rem;
+  }
+
+  #contributor .back_green span {
+    font-size:.81rem;
+  }
+
+  #contributor blockquote {
+    width: 68%;
+  }
+
+  #contributor .right{
+    width: 119%;
+  }
+
+  #contributor .right img{
+    width: 82%;
+  }
+
+  /*pour div #domain*/
+
+  #domain .left img{
+    width: 83%;
+  }
+  #domain .right{
+    width: 165%;
+    margin-top: 13%;
+    margin-bottom: 54%;
+  }
+
+  #domain{
+    margin-bottom: -25%;
+  }
+
+  #domain .right img{
+    width: 45%;
+    margin:3% 10%;
+  }
+
+  .button{
+    margin-top: -38%;
+    margin-left: 0%;
+  }
+
+  /*pour footer*/
+
+  footer .wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+
+  .product, .company, .community li a {
+    font-size:.66rem;
+    width: 115%;
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+
+  .community{
+    margin-left: 15%;
+    text-align:center;
+  }
+
+  .free{
+    margin-left: 47%;
+    padding-top: 6.20rem;
+  }
+  .free a {
+    padding: .73rem .93rem;
+    font-size: .63rem;
+  }
+
+  .free ul {
+    margin-top: 17%;
+    margin-bottom: 15%;
+    font-size: .71rem;
+    text-align: center;
+    margin-left: -65%;
+  }
+}
